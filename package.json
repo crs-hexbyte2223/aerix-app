@@ -1,0 +1,19 @@
+{
+  "name": "aerix-server",
+  "version": "1.0.0",
+  "description": "Backend proxy for the AERIX AI assistant. Holds the real API key server-side and exposes a small, provider-agnostic /api/chat endpoint to the AERIX frontend.",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
